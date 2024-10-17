@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23323912'))
 API_HASH = environ.get('API_HASH', '5b7decd292e78a57d631ea1849b7098a')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7253814569:AAGPqZHN3oi29rOOZahTtXX6s9DKhJ-onGI")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7375709298:AAFq2ubNsKiAiWjNNHK-isj2cnui_g-nrJY")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -54,7 +54,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True)) # True if you want no
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002207296876').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Leonida:Toni76@cluster0.tz9tc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Matin:Luther@cluster0.zya5oz6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
